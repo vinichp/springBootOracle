@@ -1,0 +1,5 @@
+package com.pinheiro.repository;
+
+public interface OportunidadeRepository {
+
+}

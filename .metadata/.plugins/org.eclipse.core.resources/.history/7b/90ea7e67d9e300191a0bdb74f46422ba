@@ -1,0 +1,26 @@
+package com.pinheiro.service;
+
+import java.math.BigDecimal;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.pinheiro.model.Oportunidade;
+import com.pinheiro.repository.OportunidadeRepository;
+
+@Service
+public class OportunidadeService{
+	
+	@Autowired
+	private OportunidadeRepository oportunidadeRepository;
+	
+	public Oportunidade salvar(Long id) {
+		Oportunidade oportunidade = new Oportunidade();
+		oportunidade.setId(1L);
+		oportunidade.setEmpresa("CPQD");
+		oportunidade.setValor(new BigDecimal(1111111));
+		oportunidade.setDescricao("Descricao2222344");
+		return oportunidadeRepository.save(oportunidade);
+	}
+
+}

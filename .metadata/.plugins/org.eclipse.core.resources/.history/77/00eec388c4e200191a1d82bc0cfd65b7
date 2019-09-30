@@ -1,0 +1,8 @@
+package com.pinheiro.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Oportunidade {
+
+}

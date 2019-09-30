@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:oracle:thin:@cpqd037178:1521:desrdp
+spring.datasource.username=TLF_PERU
+spring.datasource.password=xgV8WpZCrB0
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
